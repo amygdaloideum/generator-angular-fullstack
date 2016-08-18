@@ -181,6 +181,7 @@ gulp.task('release', () => console.log('TODO'));
 gulp.task('lint', () => console.log('TODO'));
 
 gulp.task('daux', () => {
+    console.log(__dirname);
     return execAsync('daux');
 });
 gulp.task('gh-pages', () => {
